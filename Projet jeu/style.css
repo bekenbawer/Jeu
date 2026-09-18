@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family-poppins:wgt@100');
+
+body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+        background-color: blue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.choix {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+}
+.choix h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    color: #999;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+
+button:focus {
+    background: #fff;
+    color: blue;
+}
